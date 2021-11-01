@@ -14,7 +14,7 @@ export class CartService {
     this.initCart();
   }
 
-  initCart():void {
+  initCart(): void {
     if (typeof(localStorage) !== 'undefined') {
       // JSON.parse permet de transformer la chaine de caractère en chaine objet
       const cart = JSON.parse(localStorage.getItem('cart'));

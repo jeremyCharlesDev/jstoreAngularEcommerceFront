@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API: 'http://localhost:8888/ecommerce/backend/api/',
+  API_KEY: 'API_KEY=adsffsdfds6b-6727-46f4-8bee-2c6ce6293e41',
+  api_image: 'http://localhost:8888/ecommerce/backend/images/products/',
+  ID_CLIENT_PAYPAL: 'AaMJbn8uaYJ1PuV6_53UnrZ52nChVn_1A1fcAqEX57LL1w0Z-cdo4VUqbQwwU-WEzzMkoTerVHHS0II4',
+  CURRENCY: 'EUR'
+
 };
 
 /*
